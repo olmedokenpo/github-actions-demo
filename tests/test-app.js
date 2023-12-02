@@ -8,7 +8,7 @@ chai.use(chaiHttp);
 const app = require('../index.js');
 
 describe('GET /', () => {
-  it('should respond with hello world', (done) => {
+  it('should asi es la vida respond with hello world', (done) => {
     chai.request(app)
       .get('/')
       .end((err, res) => {
